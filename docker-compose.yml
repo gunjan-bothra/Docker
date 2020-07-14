@@ -12,7 +12,7 @@ services:
       - /app/node_modules
       - .:/app  
     # stdin_open: true  
-  nginx:
-    image: nginx 
-    ports: 
-      - "3000:80" 
+  # nginx:
+  #   image: nginx 
+  #   ports: 
+  #     - "3000:80" 
